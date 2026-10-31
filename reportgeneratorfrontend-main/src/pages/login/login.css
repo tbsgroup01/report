@@ -1,0 +1,33 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e8f5e9;
+}
+
+form input.form-control {
+    transition: box-shadow 0.3s ease, border 0.3s ease;
+}
+
+form input.form-control:focus {
+    border-color: #388e3c;
+    box-shadow: 0 0 0 0.25rem rgba(56, 142, 60, 0.25);
+    background-color: #ffffff;
+}
+
+button.btn-success:hover {
+    background-color: #388e3c;
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+}
+
+@media (max-width: 768px) {
+    .form-label {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
+    .d-md-flex {
+        flex-direction: column !important;
+    }
+}
